@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student form</title>
+</head>
+
+<body>
+    <div>
+        <form>
+            <center>
+                <h1>Student Form</h1>
+            </center>
+            <label
+                for="name">Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input
+                type="text" placeholder="First name" required>&nbsp;<input type="text" placeholder="Middle name"
+                required>&nbsp;<input type="text" placeholder="Last name" required>
+            <br><br>
+            <label>Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input
+                type="email" placeholder="abc@gmail.com">
+            <br><br>
+            <label>Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input
+                type="password" id="password" name="password" required minlength="10"
+                title="Password must be at least 10 characters,containing,letters and numbers" placeholder="password">
+            <br><br>
+            <label>Confirm Password:&nbsp;</label><input type="password" id="password" name="password" required
+                minlength="10" title="Password must be at least 10 characters,containing,letters and numbers"
+                placeholder="password">
+            <br><br>
+            <label>Date of birth:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+            <label>Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" required>
+            <br><br>
+            <label>College Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" placeholder="college name" required>
+            <br><br>
+            <label>Mobile No:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>+<select>
+                <option value="91">91</option>
+            </select><input type="tel" id="phone" name="phone" placeholder="9876548989" part="{10}" required>
+            <br><br>
+            <label>Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input
+                type="radio">Male <input type="radio">Female
+            <br><br>
+            <label>City:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input
+                type="text" placeholder="city" required>
+            <br><br>
+            <label>State:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input
+                type="text" placeholder="state" required>
+            <br><br>
+            <label>Country:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input
+                type="text" placeholder="Country" required>
+            <br><br>
+            <label>Hobbies:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+                type="checkbox">Music <input type="checkbox">Sports <input type="checkbox">Games <input
+                type="checkbox">other
+            <br><br>
+            <label>Course:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select required>
+                <option>fullstack</option>
+                <option>mernstack</option>
+                <option>react</option>
+            </select>
+            <br>
+            <br>
+            <input type="reset" value="reset">
+            <input type="submit" value="submit">
+            <a href="./studentform.html">
+                <button type="button">cancel</button>
+            </a>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
